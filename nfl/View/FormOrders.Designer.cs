@@ -37,16 +37,18 @@ namespace nfl
             // 
             // panelItemList
             // 
-            this.panelItemList.Location = new System.Drawing.Point(2, 16);
+            this.panelItemList.Location = new System.Drawing.Point(2, 13);
+            this.panelItemList.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panelItemList.Name = "panelItemList";
-            this.panelItemList.Size = new System.Drawing.Size(945, 381);
+            this.panelItemList.Size = new System.Drawing.Size(709, 310);
             this.panelItemList.TabIndex = 0;
             // 
             // buttonOrder
             // 
-            this.buttonOrder.Location = new System.Drawing.Point(404, 404);
+            this.buttonOrder.Location = new System.Drawing.Point(303, 328);
+            this.buttonOrder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonOrder.Name = "buttonOrder";
-            this.buttonOrder.Size = new System.Drawing.Size(185, 40);
+            this.buttonOrder.Size = new System.Drawing.Size(139, 32);
             this.buttonOrder.TabIndex = 1;
             this.buttonOrder.Text = "Rendelés";
             this.buttonOrder.UseVisualStyleBackColor = true;
@@ -55,9 +57,10 @@ namespace nfl
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 416);
+            this.label1.Location = new System.Drawing.Point(6, 338);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(129, 17);
+            this.label1.Size = new System.Drawing.Size(97, 13);
             this.label1.TabIndex = 2;
             this.label1.Text = "Rendelés összege:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -66,23 +69,25 @@ namespace nfl
             // 
             this.labelSumOfOrders.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelSumOfOrders.ForeColor = System.Drawing.Color.Green;
-            this.labelSumOfOrders.Location = new System.Drawing.Point(143, 400);
+            this.labelSumOfOrders.Location = new System.Drawing.Point(107, 325);
+            this.labelSumOfOrders.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelSumOfOrders.Name = "labelSumOfOrders";
-            this.labelSumOfOrders.Size = new System.Drawing.Size(126, 48);
+            this.labelSumOfOrders.Size = new System.Drawing.Size(180, 39);
             this.labelSumOfOrders.TabIndex = 3;
             this.labelSumOfOrders.Text = "$0.00";
-            this.labelSumOfOrders.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelSumOfOrders.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // FormOrders
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(949, 450);
+            this.ClientSize = new System.Drawing.Size(712, 366);
             this.Controls.Add(this.labelSumOfOrders);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonOrder);
             this.Controls.Add(this.panelItemList);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormOrders";
