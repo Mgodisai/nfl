@@ -1,0 +1,36 @@
+   class Ital {
+
+        public string ItalNev { get; private set; }
+        public int EgysegAr { get; set; }
+
+        public Ital(string italNev, int egysegAr) {
+            this.ItalNev = italNev;
+            this.EgysegAr = egysegAr;
+        }
+
+        public string Arlistaba() {
+            return ItalNev + " (" + EgysegAr + " Ft)";
+        }
+
+    }
+
+
+
+
+----
+
+
+        private int bal = 10, fent = 10, chkXMeret = 250, chkYTav = 40, 
+                    txtXmeret = 30, txtYmeret = 17, xKoz = 5;
+
+        private int maxAdag = 999;
+
+
+----
+
+
+
+        public override string ToString() {
+            return Mennyiseg.ToString().PadLeft(4) + " " + ItalNev.PadRight(33) + 
+                   Fizetendo().ToString().PadLeft(10) + " Ft";
+        }  

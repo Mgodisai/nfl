@@ -1,0 +1,11 @@
+﻿Magyaros;1120;1220
+Hawai;1050;1250
+Son-go-ku;990;1060
+Vegetáriánus;880;1000
+Margerita;750;950
+Margerita;750;950
+Margerita;750;950
+Margerita;750;950
+Margerita;750;950
+Margerita;750;950
+Margerita;750;950
