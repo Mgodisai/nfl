@@ -130,7 +130,7 @@ namespace nfl
                     int itemNumber = ConfirmOrders();
                     if (itemNumber == 0)
                     {
-                        resultMessage = "Order not registered, none of the item was selected!";
+                        resultMessage = "Order not registered, none of the item was fully selected (select and enter quantity)!";
                     } else
                     {
                         resultMessage = String.Format("Order registered with {0} kind of item", itemNumber); 
@@ -173,7 +173,7 @@ namespace nfl
             {
                 foreach (OrderControl c in controlList)
                 {
-                    if(c.IsItemSelected)
+                    if(c.IsItemSelected && c.OrderedQuantity>0)
                     {
                         tempItem = new ItemOrdered<IItemOrderable>(c.Jersey, c.OrderedQuantity);
                         orderList.Add(tempItem);
